@@ -1,0 +1,331 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 10px;
+    justify-items: center;
+    /* position: sticky; */
+    top: 0;
+}
+
+.ama {
+    justify-content: center;
+    justify-items: center;
+}
+
+.a-img {
+    height: 35px;
+    width: 95px;
+    justify-items: center;
+}
+
+.location {
+    height: 35px;
+    width: 45px;
+}
+
+.cart-logo {
+    height: 30px;
+    width: 30px;
+}
+
+.deliver {
+    display: flex;
+}
+
+.pak {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.all {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(216, 215, 215);
+    border: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 3em;
+}
+
+.bar {
+    display: flex;
+}
+
+.search {
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 25em;
+    height: 38px;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+}
+
+.flag {
+    height: 25px;
+    width: 30px;
+}
+
+.lan {
+    height: 40px;
+    width: 45px;
+    background-color: black;
+    border: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.sign-in {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lists {
+    background-color: black;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 0;
+}
+
+.lists:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+.orders {
+    background-color: black;
+    color: white;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.orders:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+.butt {
+    background-color: black;
+    color: white;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav2 {
+    background-color: rgb(73, 73, 78);
+    display: flex;
+    justify-content: left;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.links a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* main content */
+.sell{
+    color: black;
+    background-color: #faf2e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sell .nav{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+}
+.sell .nav
+.sell .nav p{
+    font-size: large;
+}
+.sell .nav p a{
+    color: black;
+}
+.sell .nav button{
+    background-color: rgb(254, 87, 26);
+    /* height: 20px; */
+    width: 8em;
+    align-items: center;
+    color: black;
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.sell .nav button:hover{
+    box-shadow: 2px 2px 6px black;
+    color: white;background-color: rgb(247, 78, 16);
+}
+
+.sell .h1{
+    /* padding: 30px; */
+    font-size:5em;
+    padding-left: 50px;
+}
+
+.sign{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    width: 25em;
+    padding-left: px;
+    position: relative;
+    bottom: 3em;
+    left: 5em;
+    border-radius: 40px;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 7px black;
+
+}
+.sign button{
+    background-color: rgb(250, 112, 62);
+    height: 50px;
+    width: 8em;
+    align-items: center;
+    color: black;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.prod{
+    display: flex;
+    justify-content: space-evenly;
+}
+.prod img{
+    height: 25em;
+    width: 28em;
+    margin-top: 5em;
+}
+
+.more{
+    justify-items: center;
+    padding-top: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.more p{
+    font-size: xx-large;
+}
+.woman{
+    display: flex;
+    color: black;
+    justify-content: space-evenly;
+    padding-top: 40px;
+
+}
+.woman h3{
+    color: white;
+    background-color: green;
+    padding: 15px;
+    border-radius: 50px;
+    width: 15em;
+    justify-items: center;
+}
+.woman img{
+    height: 25em;
+    width: 28em;
+}
+
+.percent{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(49, 48, 48);
+    padding: 40px;
+}
+.percent div{
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
+}
+@media(max-width:768px){
+    .sell .nav p{
+        font-size: medium;
+    }
+    .sell .h1{
+        font-size: 3em;
+    }
+    .prod img{
+        height: 20em;
+        width: 23em;
+        margin-top: 2em;
+    }
+    .sign{
+        width: 20em;
+    }
+    .sell .nav{
+        flex-direction: column;
+    }
+    .more p{
+        font-size: large;
+    }
+    .woman img{
+        height: 20em;
+        width: 23em;}
+        .percent{
+            grid-template-columns: auto;
+        }
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+.back span{
+    background-color:rgb(82, 77, 77);
+    
+    display: flex;
+    justify-content: center;
+
+}
+.back a{
+    color: white;
+    font-size: larger;
+    /* text-align: center; */
+    padding: 20px;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.back span:hover{
+background-color: rgb(156, 151, 151);
+
+}
+
+
