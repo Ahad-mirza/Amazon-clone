@@ -17,20 +17,6 @@ Welcome to the Amazon Clone project! This is a web-based clone of the popular e-
 - **CSS**: For styling and making the page responsive.
 - **JavaScript**: For any interactive features (if implemented).
 - **Icons and Logos**: Various images and icons are used to enhance the look and feel.
-
-## 🖼️ Screenshots
-
-Here are some preview images of the sections:
-
-### Main Page
-![Main Page](./images/main-page-preview.jpg)
-
-### Customer Service
-![Customer Service](./images/customer-service-preview.jpg)
-
-### Gaming Store Section
-![Gaming Store](./images/gaming-store-preview.jpg)
-
 ## 🔍 How to Use
 
 1. Clone the repository to your local machine.
