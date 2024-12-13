@@ -48,7 +48,7 @@ nav {
 .bg-img {
     height: 100vh; /* Ensure it covers the full screen */
     width: 100%;
-    background-image: url('room.jpg');
+    background-image: url('./images/room.jpg');
     background-repeat: no-repeat;
     background-size: cover; /* Ensures the image covers the entire container */
     background-position: center;
