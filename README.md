@@ -6,7 +6,7 @@ Welcome to the **Amazon Clone** project! This is a modern, web-based clone of th
 
 ## 🌐 Live Demo
 
-Experience the project live: [Amazon Clone Live Demo](https://ahad-mirza.github.io/Amazon-clone/)
+Experience the project live: [Amazon Clone Live Demo](https://Ahad-mirza.github.io/Amazon-clone/)
 
 ---
 
